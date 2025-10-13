@@ -1,0 +1,24 @@
+{
+  "name": "speckit",
+  "version": "0.0.61",
+  "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+  "author": {
+    "name": "GitHub, Inc."
+  },
+  "commands": [
+    "./.claude/commands"
+  ],
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/validate.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
