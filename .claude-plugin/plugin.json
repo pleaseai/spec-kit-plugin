@@ -1,7 +1,7 @@
 {
-  "name": "speckit",
+  "name": "spec-kit",
   "version": "0.0.61",
-  "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+  "description": "💫 Claude Code plugin for GitHub's Spec-Kit - Toolkit for Spec-Driven Development",
   "author": {
     "name": "GitHub, Inc."
   },
